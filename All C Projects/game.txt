@@ -1,0 +1,331 @@
+#include<stdio.h>
+int computer(void)
+{
+    char one,two,three,four;
+    int p=0;
+    printf("\t   Now you are entring the computer zone\n\n");
+    printf("(Q.1):-Who invented the C programing language\n");
+    printf("(a)Dennis Ritchie    (b)Brain Kernighan\n(c)Smith hog   (d)Bill Gates\n" );
+    printf("Enter your answer:");
+    scanf("%*c%c",&one);
+    if(one=='a')
+    {
+        printf("Your answer is correct\n\n");
+        p=p+5;
+    }
+    else
+    {
+        printf("Your answer is incorrect\n");
+        p=p-5;
+
+         printf("Correct answer is:a\n\n");
+    }
+    printf("(Q.2):-What is the latest OS of Apple\n");
+    printf("(a)Mac II  (b)Mountain Lion\n(c)Mac II  (d)Mac V\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&two);
+    if(two=='b')
+    {
+        printf("Your answer is correct\n\n");
+        p=p+5;
+    }
+    else
+    {
+        printf("Your answer is incorrect\n");
+        p=p-5;
+        printf("Correct answer is:b\n\n");
+    }
+    printf("You scor in computer is:%d\n",p);
+    return(p);
+
+
+
+}
+int math(void)
+{
+    int p=0;
+    char one,two;
+    printf("\t     Now you are enterning the Math zone\n\n");
+    printf("(Q.1)if x=y,y=10 than (x^2+y^2)/2=?\n");
+    printf("(a)200  (b)200\n(c)100   (d)50\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&one);
+    if(one=='c')
+    {
+        printf("Your answer is correct\n\n");
+        p+=5;
+    }
+    else
+    {
+        printf("Your answer is incorrect\n");
+        p-=5;
+
+        printf("Correct answer is:c\n\n");
+    }
+    printf("(Q.2)if x=sin,y=cos than x^2+y^2+tan^2=?\n");
+    printf("(a)sin^2  (b)cosec^2\n(c)cot^2  (d)sec^2\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&two);
+    if(two=='d')
+    {
+        printf("Your answer is correct\n\n");
+        p+=5;
+    }
+    else
+    {
+         printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:d\n");
+    }
+    printf("You scor in math is:%d\n",p);
+    return(p);
+
+
+}
+int bangladesh(void)
+{
+    int p=0;
+    char one,two;
+    printf("\t       Now you are enterning the bangladesh zone\n\n");
+    printf("(Q.1)What is the position of Bangladesh in coruption in 2012\n");
+    printf("(a)12 th  (b)11 th\n(c)13 th   (d)15 th\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&one);
+    if(one=='c')
+    {
+         printf("Your answer is correct\n\n");
+         p+=5;
+    }
+    else
+    {
+         printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:c\n\n");
+
+    }
+    printf("(Q.2)Where is situated the only one water fall in bangladesh\n");
+    printf("(a)Madopkundo   (b)Rangamati\n(c)Himchori   (d)Khulna\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&one);
+    if(one=='a')
+    {
+         printf("Your answer is correct\n\n");
+         p+=5;
+    }
+    else
+    {
+
+         printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:a\n");
+    }
+    printf("You scor in Bangladesh is:%d\n\n",p);
+    return(p);
+
+
+}
+int international(void)
+{
+    int p=0;
+    char one,two;
+    printf("\t       Now you are enterning the international zone\n\n");
+    printf("(Q.1)Where is situated the largest buillding in the world\n");
+    printf("(a)Paris   (b)Dubai\n(c)U.S.A   (d)Chaina\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&one);
+    if(one=='b')
+    {
+        printf("Your answer is correct\n\n");
+         p+=5;
+
+    }
+    else
+    {
+        printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:b\n\n");
+
+    }
+    printf("(Q.2)Which city is the most dirtyest city in the world\n");
+    printf("(a)Moscow   (b)Mumbai\n(c)katar   (d)dilly\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&two);
+    if(two=='b')
+    {
+        printf("Your answer is correct\n\n");
+         p+=5;
+    }
+    else
+    {
+        printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:b\n");
+
+    }
+
+
+     printf("You scor in international is:%d\n\n",p);
+     return(p);
+
+}
+int sports(void)
+{
+    int p=0;
+    char one, two;
+    printf("\t       Now you are enterning the sports zone\n\n");
+    printf("(Q.1)Which team won the T20 world cup 2012\n");
+    printf("(a)India   (b)Australia\n(c)West-indis  (d)England\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&one);
+    if(one=='c')
+    {
+        printf("Your answer is correct\n\n");
+         p+=5;
+
+    }
+    else
+    {
+        printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:b\n\n");
+    }
+    printf("(Q.2)Which Country will arrange the FIFA world cup 2018\n");
+    printf("(a)Brazil   (d)Africa\n(c)Argentina   (d)Cater\n");
+    printf("Enter your answer:");
+    scanf("%*c%c",&two);
+    if(two=='d')
+    {
+         printf("Your answer is correct\n\n");
+         p+=5;
+
+    }
+    else
+    {
+
+         printf("Your answer is incorrect\n");
+         p-=5;
+
+         printf("Correct answer is:d\n");
+
+    }
+
+    printf("You scor in sports is:%d\n\n",p);
+    return(p);
+
+}
+
+int main()
+{
+    int k=1,c=0,m=0,b=0,i=0,s=0,total,total1;
+    int one,c1,m1,b1,i1,s1;
+  char name[15],choose,n,z;
+  printf("The project members are Shimul,Sourav,Mostakim,Raihan\n\n");
+  printf("\t                     Well come to the Quize \n\n");
+  printf("There are four subject which are given below\n\n ");
+  printf("(1)Computer   (2)Math \n(3)Bangladesh   (4)International\n");
+  printf("(5)Sports\n\n");
+  printf("Fore each quastion correct answer 5 point and for incorrect -5 point\n\n ");
+  printf("Enter your name:");
+  gets(name);
+  do
+  {
+
+    printf("\n now choose your topic:");
+    scanf("%d",&one);
+  printf("\n\n");
+  switch(one)  //every funation will call once
+  {
+      case 1:       if(c!=1)
+                     {
+                         c1=computer();
+                         c++;
+                         break;
+                     }
+                     else
+                     {
+                         printf("you already choose this topic try another  topic\n");
+                         break;
+                     }
+
+
+        case 2:    if(m!=1)
+                     {
+                         m1=math();
+                         m++;
+                         break;
+                     }
+                     else
+                     {
+                         printf("you already choose this topic try another  topic\n");
+                         break;
+                     }
+
+        case 3:     if(b!=1)
+                       {
+                           b1=bangladesh();
+                           b++;
+                           break;
+
+                       }
+                       else
+                       {
+                            printf("you already choose this topic try another  topic\n");
+                            break;
+                       }
+
+         case 4:     if(i!=1)
+                       {
+                           i1=international();
+                           i++;
+                           break;
+                       }
+                       else
+                       {
+                            printf("you already choose this topic try another  topic\n");
+                            break;
+                       }
+
+          case 5:    if(s!=1)
+                        {
+                            s1=sports();
+                            s++;
+                            break;
+                        }
+                        else
+                        {
+                             printf("you already choose this topic try another  topic\n");
+                             break;
+                        }
+
+  }
+  total=c1+b1+i1+m1+s1;//counting the total point
+  total1=c+m+b+i+s;//counting how many funation has been used
+  printf("\nDo you want to choose again (y/n):");
+  scanf("%*c%c",&n);
+  if(total1<5 && n=='n')
+  {
+      printf("\nyou did'nt finished all the topic\n");
+     // printf("\n now choose your topic:");
+      //scanf("%d",&one);
+      n='y';//changing the value of n so that the loop can be continued untill it uses all the funation
+  }
+
+  z=n;
+  }while(z!='n');
+  printf("Your score in Computer is=%d\n",c1);
+  printf("Your score in Math is =%d\n",m1);
+  printf("Your score in Bangladesh is=%d\n",b1);
+  printf("Your score in International is=%d\n",i1);
+  printf("your score in Sports is=%d\n",s1);
+  printf("----------------------------------------------------------\n");
+  printf("                                       total=%d\n",total);
+  getch();
+
+  return 0;
+}

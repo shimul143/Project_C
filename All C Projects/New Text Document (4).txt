@@ -1,0 +1,94 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a[16]={0};
+int b,c,d,e;
+int i,j,k;
+printf("1.Set Value\n");
+printf("2.Get Value\n");
+printf("3.print Array\n");
+printf("4.Exit The Program\n");
+while(scanf("%d",&e)==1){
+if(e==1){
+printf("\ni = ");
+scanf("%d",&i);
+printf("\nj = ");
+scanf("%d",&j);
+printf("\nValue = ");
+scanf("%d",&b);
+k=(i*(i-1));
+k=k/2;
+k=k+j;
+a[k]=b;}
+else if(e==2){
+printf("\ni = ");
+scanf("%d",&i);
+printf("\nj = ");
+scanf("%d",&j);
+k=(i*(i-1));
+k=k/2;
+k=k+j;
+printf("get in row %d coloum %d value = %d",i,j,a[k] );
+getch();
+}
+else if(e==3){
+for (c = 1; c< 16; c++)
+{
+printf("%d ",a[c]);}
+getch();
+}
+else
+{
+break;
+}
+}
+return 0;
+}
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a[16]={0};
+int b,c,d,e;
+int i,j,k;
+printf("1.Set Value\n");
+printf("2.Get Value\n");
+printf("3.print Array\n");
+printf("4.Exit The Program\n");
+while(scanf("%d",&e)==1){
+if(e==1){
+printf("\ni = ");
+scanf("%d",&i);
+printf("\nj = ");
+scanf("%d",&j);
+printf("\nValue = ");
+scanf("%d",&b);
+k=(5-i+1)*(5-i+2);
+k=k/2;
+k=(15-k+j-i)+1;
+a[k]=b;}
+else if(e==2){
+printf("\ni = ");
+scanf("%d",&i);
+printf("\nj = ");
+scanf("%d",&j);
+k=(5-i+1)*(5-i+2);
+k=k/2;
+k=(15-k+j-i)+1;
+printf("get in row %d coloum %d value = %d",i,j,a[k] );
+getch();
+}
+else if(e==3){
+for (c = 1; c< 16; c++)
+{
+printf("%d ",a[c]);}
+getch();
+}
+else
+{
+break;
+}
+}
+return 0;
+}
